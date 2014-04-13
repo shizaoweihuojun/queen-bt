@@ -1,5 +1,5 @@
 /*
-    N-queen puzzle: backtracking method for find all solutions.
+    N-queen puzzle: backtracking method to find all solutions.
     Main search cycle is parallized.
     Arguments: 1st = board dimension; 2nd = number of threads.
 */
