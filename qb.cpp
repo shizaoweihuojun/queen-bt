@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
     
     double tm = omp_get_wtime();
     #pragma omp parallel for shared(sz,total_sln,total_ops)\
-     schedule(runtime)
+     schedule(dynamic)
     for (int p = 0; p < sz; p++) {
 	    data d = solver(p,sz);
 	    #pragma omp atomic
