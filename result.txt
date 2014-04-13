@@ -1,0 +1,41 @@
+# reduction
+8-board: 1 threads. Number of solutions: 92. Combinations checked: 15712. Time is 0.002296s.
+8-board: 2 threads. Number of solutions: 92. Combinations checked: 15712. Time is 0.002517s.
+8-board: 4 threads. Number of solutions: 92. Combinations checked: 15712. Time is 0.002084s.
+8-board: 8 threads. Number of solutions: 92. Combinations checked: 15712. Time is 0.002704s.
+10-board: 1 threads. Number of solutions: 724. Combinations checked: 348140. Time is 0.056893s.
+10-board: 2 threads. Number of solutions: 724. Combinations checked: 348140. Time is 0.030011s.
+10-board: 5 threads. Number of solutions: 724. Combinations checked: 348140. Time is 0.014044s.
+10-board:10 threads. Number of solutions: 724. Combinations checked: 348140. Time is 0.013200s.
+
+16-board: 8 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 620.772163s.
+16-board: 12 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 620.313284s.
+16-board: 16 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 325.507978s.
+
+# atomic
+16-board: 8 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 620.213027s.
+16-board: 12 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 631.160976s.
+16-board: 16 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 311.441958s.
+
+# dynamic + atomic
+15-board: 1 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 579.758910s.
+15-board: 3 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 194.026035s.
+15-board: 5 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 118.784612s.
+15-board: 7 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 103.858057s.
+15-board: 10 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 75.503218s.
+15-board: 15 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 45.094205s.
+16-board: 8 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 565.011203s.
+16-board: 12 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 494.782279s.
+16-board: 14 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 455.991751s.
+16-board: 16 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 325.183688s.
+
+# runtime + atomic
+15-board: 1 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 579.752130s.
+15-board: 3 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 227.044303s.
+15-board: 5 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 130.230736s.
+15-board: 7 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 101.269243s.
+15-board: 10 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 91.069914s.
+15-board: 15 threads. Number of solutions: 2279184. Combinations checked: 2532748305. Time is 44.188994s.
+16-board: 8 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 621.692815s.
+16-board: 12 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 620.316911s.
+16-board: 16 threads. Number of solutions: 14772512. Combinations checked: 18022684640. Time is 326.715927s.
